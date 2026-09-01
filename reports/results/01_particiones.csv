@@ -1,0 +1,3 @@
+partición,filas,columnas,tasa_abandono,abandonos,nulos
+train,8101,25,0.1607,1302,0
+holdout,2026,25,0.1604,325,0

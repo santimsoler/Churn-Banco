@@ -1,0 +1,16 @@
+variable,etiqueta,coeficiente,odds_ratio,efecto
+ticket_promedio,Ticket promedio,2.3387,10.3673,aumenta riesgo
+Total_Trans_Ct,Cantidad de transacciones (12m),-1.8427,0.1584,protege
+Total_Trans_Amt,Monto transaccionado (12m),-1.7945,0.1662,protege
+Months_Inactive_12_mon,Meses inactivo (12m),1.3846,3.9931,aumenta riesgo
+ratio_inactividad,Meses inactivo / antigüedad,-1.0078,0.365,protege
+Gender_M,Género: masculino,-0.814,0.4431,protege
+saldo_rotativo_cero,Saldo rotativo en cero,0.7628,2.1443,aumenta riesgo
+Months_on_book,Antigüedad (meses),-0.5146,0.5977,protege
+contactos_por_producto,Contactos por producto,0.3834,1.4673,aumenta riesgo
+Contacts_Count_12_mon,Contactos (12m),0.3802,1.4626,aumenta riesgo
+Total_Ct_Chng_Q4_Q1,Δ Transacciones Q4/Q1,-0.3791,0.6845,protege
+Marital_Status_Married,Estado civil: casado/a,-0.3353,0.7151,protege
+Total_Relationship_Count,Productos contratados,-0.3294,0.7194,protege
+caida_actividad,Caída de actividad Q4 vs Q1,0.3151,1.3704,aumenta riesgo
+Card_Category,Tipo de tarjeta,0.2725,1.3132,aumenta riesgo

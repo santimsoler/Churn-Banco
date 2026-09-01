@@ -1,0 +1,8 @@
+{
+  "modelo": "hist_gradient_boosting",
+  "umbral": 0.103568,
+  "criterio_umbral": "cost",
+  "techo_capacidad": 0.3,
+  "seed": 42,
+  "k_segmentos": 2
+}

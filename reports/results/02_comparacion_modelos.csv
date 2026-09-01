@@ -1,0 +1,10 @@
+modelo,pr_auc_cv,pr_auc_std,mejores_params,nota
+hist_gradient_boosting,0.9673,0.005,"{""l2_regularization"": 0.0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",Boosting por histogramas. Equivalente en espíritu a XGBoost/LightGBM y disponible en scikit-learn.
+random_forest,0.943,0.0148,"{""max_depth"": null, ""min_samples_leaf"": 1}",Bagging con submuestreo de variables. Control de complejidad por profundidad y tamaño de hoja.
+random_forest_ccp,0.943,0.0156,"{""ccp_alpha"": 0.0001}","Mismo bosque, complejidad regulada por poda posterior en vez de por profundidad máxima."
+extra_trees,0.9232,0.0163,"{""max_depth"": null, ""min_samples_leaf"": 1}","Cortes aleatorios en vez de óptimos: más sesgo por árbol, menos varianza en el ensamble."
+arbol_podado,0.8541,0.0299,"{""ccp_alpha"": 0.0, ""max_depth"": null, ""min_samples_leaf"": 30}","Árbol único con poda de coste-complejidad. Sirve para leer reglas, no para competir en performance."
+knn,0.8325,0.024,"{""n_neighbors"": 21, ""weights"": ""distance""}","No paramétrico. Sensible a la escala y a la dimensión, de ahí el escalado obligatorio."
+logistica_elasticnet,0.795,0.0075,"{""C"": 0.5, ""l1_ratio"": 0.2}",Compromiso entre ridge y lasso: agrupa predictores correlacionados en vez de quedarse con uno solo.
+logistica_l1,0.7949,0.0076,"{""C"": 0.5}",Lasso logístico: selecciona variables llevando coeficientes a cero exacto.
+logistica_l2,0.7948,0.0076,"{""C"": 1.0}",Baseline interpretable. Los coeficientes son log-odds: exponenciados dan odds ratios.

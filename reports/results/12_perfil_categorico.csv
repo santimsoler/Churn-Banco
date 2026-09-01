@@ -1,0 +1,5 @@
+,Género,Género,Nivel educativo,Nivel educativo,Nivel educativo,Nivel educativo,Nivel educativo,Nivel educativo,Nivel educativo,Estado civil,Estado civil,Estado civil,Estado civil,Categoría de ingresos,Categoría de ingresos,Categoría de ingresos,Categoría de ingresos,Categoría de ingresos,Categoría de ingresos,Tipo de tarjeta,Tipo de tarjeta,Tipo de tarjeta,Tipo de tarjeta
+,F,M,College,Doctorate,Graduate,High School,Post-Graduate,Uneducated,Unknown,Divorced,Married,Single,Unknown,$120K +,$40K - $60K,$60K - $80K,$80K - $120K,Less than $40K,Unknown,Blue,Gold,Platinum,Silver
+cluster,,,,,,,,,,,,,,,,,,,,,,,
+0,0.266,0.734,0.038,0.025,0.304,0.215,0.127,0.165,0.127,0.114,0.253,0.506,0.127,0.127,0.127,0.165,0.329,0.215,0.038,0.797,0.038,0.013,0.152
+1,0.599,0.401,0.114,0.088,0.328,0.161,0.038,0.117,0.155,0.085,0.454,0.397,0.063,0.044,0.17,0.117,0.155,0.391,0.123,0.959,0.0,0.0,0.041
