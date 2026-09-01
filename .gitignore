@@ -1,0 +1,15 @@
+# Artefactos del pipeline
+.cache/
+run.log
+ablacion.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Sistema
+.DS_Store

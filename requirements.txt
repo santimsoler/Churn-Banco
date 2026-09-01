@@ -1,0 +1,11 @@
+# Probado con Python 3.11.
+# Versiones mínimas: HistGradientBoostingClassifier requiere sklearn >= 1.0 y
+# el parámetro class_weight de ese estimador, >= 1.2.
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.4
+matplotlib>=3.8
+joblib>=1.3
+
+# Sólo para abrir los notebooks; el pipeline corre sin esto.
+jupyterlab>=4.0
